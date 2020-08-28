@@ -4,7 +4,6 @@
 
 body {
     width: 100vw;
-    height: 100vh;
     display: flex;
     overflow: hidden;
     justify-content: center;
@@ -88,3 +87,12 @@ body {
     cursor: pointer;
     margin:30px;
   }
+@media screen and (max-width: 700px) {
+    body {
+      flex-direction: column;
+    }
+    .card {
+        flex-direction: column;
+    }
+  }
+  
